@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "employees",
   "info": {
-    "name": "Employees"
+    "name": "Employees",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,9 +16,7 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": false,
